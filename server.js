@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 app.get('/',(req , res) => {
     res.json({
-        message: 'Hello , welcome to our page'
+        message: 'Hello , welcome to my application'
     })
 })
 const PORT = process.env.PORT || 4000

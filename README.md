@@ -1,3 +1,3 @@
 # management_app
 
-# React , mongoDB
+# React nodejs, express, mongoDB

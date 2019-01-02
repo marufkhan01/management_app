@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const Schema = mongoose.Schema
+const Schema = mongoose.Schema // Everything in Mongoose starts with a Schema. Each schema maps to a MongoDB collection and defines the shape of the documents within that collection.
 
 const userSchema = new Schema({
     name: {
@@ -27,5 +27,5 @@ const userSchema = new Schema({
 })
 
 
-const User = mongoose.model('User', userSchema)
+const User = mongoose.model('User', userSchema) // Create a model. Models are responsible for creating and reading documents from MongoDB database
 model.exports = User
